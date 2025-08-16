@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>NOMIAI – Your Smart Fitness Companion</title>
+  <link rel="stylesheet" href="color.css" />
+  <style>
+    .slideshow-container {
+      position: relative;
+      max-width: 100%;
+      margin: auto;
+      padding: 20px;
+    }
+    .slide {
+      display: none;
+      border-radius: 12px;
+    }
+    .slide img {
+      width: 100%;
+      height: auto;
+      border-radius: 12px;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>NOMIAI</h1>
+  <nav>
+    <a href="#about">About</a>
+    <a href="#features">Features</a>
+    <a href="#feedback">Testimonials</a>
+    <a href="#submit-feedback">Feedback</a>
+    <a href="https://www.chatbase.co/chatbot-iframe/TjmvnqgtuNfncOIM7Xr0h">Try Now</a>
+  </nav>
+</header>
+
+<section class="hero">
+  <h2>Your AI Fitness Coach is Here</h2>
+  <p><strong>Nomi</strong> — your intelligent, always-on fitness assistant. Whether you're at home, at the gym, or on the move, Nomi helps you train smarter, eat better, and stay on track.</p>
+  <div class="slideshow-container">
+    <div class="slide">
+      <img src="https://images.unsplash.com/photo-1434682966726-19ad3a76e143?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDIxfHx8ZW58MHx8fHx8" alt="Caroline Workout 3">
+    </div>
+    <div class="slide">
+      <img src="https://plus.unsplash.com/premium_photo-1724478438662-44cc60633e7c?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8aG9tZSUyMGd5bXxlbnwwfHwwfHx8MA%3D%3D" alt="Caroline Workout 1">
+    </div>
+    <div class="slide">
+      <img src="https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3" alt="Caroline Workout 2">
+    </div>
+    <div class="slide">
+      <img src="https://plus.unsplash.com/premium_photo-1724478439362-da8e6ce4d0dc?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDUyfHx8ZW58MHx8fHx8" alt="Caroline Workout 3">
+    </div>
+    <div class="slide">
+      <img src="https://plus.unsplash.com/premium_photo-1682093036804-515dd976a6ec?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDk1fHx8ZW58MHx8fHx8" alt="Caroline Workout 3">
+    </div>
+  </div>
+  <button class="btn" onclick="scrollToTry()">Try the Chatbot</button>
+</section>
+
+<section id="about">
+  <h3>👥 About Us</h3>
+  <p>
+  At <strong>NOMIAI</strong>, we're not just making fitness smarter—we're putting it on autopilot (minus the crash landings). Our AI sidekick, <strong>Nomi</strong>, is like having a personal trainer, a nutrition guru, and your most supportive gym buddy all rolled into one—minus the judgmental stares. Whether you're crushing reps or just reaching for the remote, Nomi fits right in your pocket, ready to guide, push, and cheer you on wherever you go. Smart, sassy, and always on—Nomi’s here to flex with you.
+</p>
+
+</section>
+
+<section id="features">
+  <h3>🔥 What Nomi Can Do</h3>
+ <ul>
+  <li>🏋️‍♀️ Workouts That Know You – From couch potato to cardio beast, get routines customized to your pace, goals, and mood.</li>
+  <li>🥗 Eat Smart, Not Boring – Get meal tips that fit your fitness journey *and* your taste buds (yes, cheat days included).</li>
+  <li>📲 Your Pocket Powerhouse – Access quick tips, pro tools, and wellness hacks that actually work — whenever you need them.</li>
+  <li>🤖 Chat Like It’s a Real Coach – Talk to Nomi like you would a human (minus the awkward small talk and gym guilt).</li>
+  <li>🕒 Always On. Always Awesome – Whether it’s 5AM or midnight snack time, Nomi’s got your back — anytime, anywhere.</li>
+</ul>
+
+</section>
+
+<section id="feedback">
+  <h3>💬 What Users Say</h3>
+  <div class="feedback-container">
+    <div class="card">
+      <p>"Nomi completely changed my routine. It feels like I have a real personal trainer with me 24/7!"</p>
+      <span>– Aisha R., Beginner</span>
+    </div>
+    <div class="card">
+      <p>"The AI gives spot-on advice for both workouts and diet. Plus, it’s super motivating!"</p>
+      <span>– Rahul M., Gym Enthusiast</span>
+    </div>
+    <div class="card">
+      <p>"It’s intuitive, fast, and feels like chatting with a real coach. Highly recommend!"</p>
+      <span>– kumar G., Home Trainer</span>
+    </div>
+  </div>
+</section>
+
+<section id="submit-feedback">
+  <h3>✍️ Share Your Feedback</h3>
+  <form class="feedback-form" onsubmit="return handleSubmit(event)">
+    <input type="text" name="name" placeholder="Your Name" required />
+    <input type="email" name="email" placeholder="Your Email" required />
+    <textarea name="message" rows="4" placeholder="Write your feedback..." required></textarea>
+    <button type="submit" class="btn">Send Feedback</button>
+  </form>
+  <p id="thank-you-msg">Thank you for your feedback!</p>
+</section>
+
+<section id="try">
+  <h3>🚀 Try Nomi Now</h3>
+  <p> Need a workout plan? Craving personalized nutrition tips? Or maybe just a spark of motivation to keep going? Nomi’s got your back — anytime, anywhere — with smart, real-time support that grows with your goals.</p>
+  <a href="https://www.chatbase.co/chatbot-iframe/TjmvnqgtuNfncOIM7Xr0h" target="_blank">
+    <button class="btn">Launch the Chatbot</button>
+  </a>
+</section>
+
+<footer>
+© 2025 NOMIAI | Your AI-powered fitness BFF — always strong, always smart, always by your side.
+</footer>
+
+<script>
+  function scrollToTry() {
+    document.getElementById("try").scrollIntoView({ behavior: "smooth" });
+  }
+
+  function handleSubmit(event) {
+    event.preventDefault();
+    document.querySelector('.feedback-form').reset();
+    document.getElementById('thank-you-msg').style.display = 'block';
+    return false;
+  }
+
+  // Simple slideshow logic
+  let slideIndex = 0;
+  showSlides();
+
+  function showSlides() {
+    let slides = document.getElementsByClassName("slide");
+    for (let i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+    }
+    slideIndex++;
+    if (slideIndex > slides.length) {slideIndex = 1;}
+    slides[slideIndex-1].style.display = "block";
+    setTimeout(showSlides, 3000); // Change image every 3 seconds
+  }
+</script>
+
+</body>
+</html>
